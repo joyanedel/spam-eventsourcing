@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "spam-eventsourcing"
+version = "0.1.0"
+description = "Spam system using event sourcing as source of truth"
+authors = ["joyanedel"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.2"
+eventsourcing = "^9.2.22"
+sqlmodel = "^0.0.14"
+uvicorn = "^0.27.1"
+python-decouple = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
