@@ -3,7 +3,7 @@ name = "spam-eventsourcing"
 version = "0.1.0"
 description = "Spam system using event sourcing as source of truth"
 authors = ["joyanedel"]
-license = "MIT"
+license = "GPL"
 readme = "README.md"
 
 [tool.poetry.dependencies]
